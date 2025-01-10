@@ -4,6 +4,8 @@ namespace Test.BackEnd.Passwords
 {
     public class PasswordImplementationTests
     {
+
+        #region Password Length tests
         [Fact]
         public void When_PasswordIsEightCharacters_Then_IsValid()
         {
@@ -42,5 +44,7 @@ namespace Test.BackEnd.Passwords
             // assert
             Assert.Equal("Password must be between 7-14 characters in length", errMsg);
         }
+
+        #endregion
     }
 }
