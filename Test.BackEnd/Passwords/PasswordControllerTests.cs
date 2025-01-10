@@ -1,15 +1,9 @@
 ﻿using back_end.Controllers;
 using back_end.Models;
 using back_end.Services;
-using Castle.Core.Logging;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Test.BackEnd.Passwords
 {
